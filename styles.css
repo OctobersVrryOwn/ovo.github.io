@@ -1,0 +1,181 @@
+.index{
+    background-image: url("lebron-james1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.news{
+    background-image: url("nike.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 300px;
+}
+
+.main_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+}
+
+.inline-block {
+
+    vertical-align: middle;
+    display: inline-block;
+
+
+}
+h1 {
+    padding: 5px;
+    font-family: Arial;
+    font-size: 28px;
+    color: white;
+    text-shadow: 5px 5px black;
+    background: #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px;
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    background-color: #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#author-name-and-date {
+    font-family: Arial;
+    font-size: 12px;
+    color: lightgray;
+}
+
+p, ol{
+    font-family: calibri;
+    font-size: 18px;
+    color: white;
+}
+
+#outside_link a {
+    font-family: Arial;
+    font-size: 12px;
+    color: blue;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+table{
+
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 10px;
+    text-align: center;
+}
+/*Scoring list*/
+#scoring_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#scoring_list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Copperplate Gothic Light";
+}
+
+#scoring_list li a:hover {
+    background-color: #111;
+    font-size: 26px;
+    font-family:"Copperplate Gothic Light";
+}
+
+.browser{
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+/*Points total table*/
+.lb_table_section{
+    background-color: #333;
+    padding: 30px; 
+    width: 300px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    width: auto;
+    max-width: 450px;
+    max-height: 500px;
+    border-radius: 50px;
+}
+.lj_points_table{
+    border-spacing: 30px 10px;
+    padding-left: 10px;
+}
+
+/*Navigation*/
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+nav a{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family:"Copperplate Gothic Light";
+    color:white;
+    padding: 15px 25px;
+    background-color: black;
+    margin: 0;
+}
+nav a:hover{
+    color:lightgray;
+}
+
+#surveys{
+    color: white;
+}
+#player_summary{
+    color: white;
+}

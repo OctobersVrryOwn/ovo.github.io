@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NBA Greatest of All Time Survey</title>
+    <link id='csslink' rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="news">
+    <h1>NBA Greatest of All Time Survey</h1>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <br>
+    <br>
+    <!-- ZyBook Reference 3.12-->
+    <form id="surveys">
+        <fieldset id="age_survey">
+            <legend>What is your Age? </legend>
+            <input type="radio" name="age" value="Draft" id="draft">
+                <label for="draft">11-15</label>
+            <input type="radio" name="age" value="Final" id="final">
+                <label for="final">16-18</label>
+            <input type="radio" name="age" value="Final" id="last">
+                <label for="last">19-24</label>
+        </fieldset>
+
+        <fieldset id="player_survey">
+            <legend>Select your player:</legend>
+            <input type="radio" name="player_name" value="MJ" id="player1">
+                <label for="player1">Micheal Jordan</label><br>
+            <input type="radio" name="player_name" value="LJ" id="player2">
+                <label for="player2">Lebron James</label><br>
+            <input type="radio" name="player_name" value="KB" id="player3">
+                <label for="player3">Kobe Bryant</label><br>
+            <input type="radio" name="player_name" value="KAJ" id="player4">
+                <label for="player4">Kareem-Abdul-Jabbar</label><br>
+            <input type="radio" name="player_name" value="SC" id="player5">
+                <label for="player5">Stephen Curry</label><br>
+        </fieldset>
+        <br>
+        <input type ="submit" value="Submit">
+    </form>
+
+    <h2> Player Summary </h2>
+    <div id="player_summary">
+        <img src="jordan.jpg" alt="michael jordan holding ball" class="center">
+        <p> <h3>Micheal Jordan:</h3> 6 NBA Championships, 5x MVPs, 14x All Star, 10x All-NBA First Team, DPOY, 9x All-Defense First Team</p>
+        <img src="lbj.jpg" alt="lebron james holding trophies" class="center">
+        <p> <h3>LeBron James:</h3> 4 NBA Championships, 4x MVPs, 19x All Star, 13x All-NBA First Team, 5x All-Defense First Team</p>
+        <img src="kobe.jpg" alt="kobe bryant with arms spread" class="center">
+        <p> <h3>Kobe Bryant:</h3> 5 NBA Championships, 1x MVPs, 18x All Star, 11x All-NBA First Team, 9x All-Defense First Team</p>
+        <img src="kareem.jpg" alt="kareem abdul shooting ball" class="center">
+        <p> <h3>Kareem-Abdul-Jabbar:</h3> 6 NBA Championships, 6x MVPs, 19x All Star, 10x All-NBA First Team, 5x All-Defense First Team</p>
+        <img src="steph.jpg" alt="steph curry biting mouthguard " class="center">
+        <p> <h3>Stephen Curry:</h3> 4 NBA Championships, 2x MVPs, 9x All Star, 4x All-NBA First Team</p>
+    </div>
+
+</body>
+
+</html>

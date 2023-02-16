@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>Lebron Record Break</title>
+    <link id='csslink' rel="stylesheet" href="styles.css" />
+<script>
+    function toggleCSS() {
+        // Obtains the <link> element that links to the css (by using its id).
+        var currentCSS = document.getElementById('csslink');
+
+        // Change the value of href attribute to change the css file.
+        if (currentCSS.getAttribute('href') == 'styles.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+        } else {
+            currentCSS.setAttribute('href', 'styles.css');
+        }
+    }
+</script>
+</head>
+
+<body class="index">
+    <header>
+    <h1> LeBron James breaks NBA scoring record with his 38,388th point, surpassing Kareem Abdul-Jabbar </h1>
+    </header>
+
+    <nav>
+            <a href="index.html">Home</a>
+           <a href="news.html">NBA Survery</a>
+    </nav>
+    <br>
+    <img src="score.jpg" alt="lebron james banner" class="main_img">
+
+    <p>On Tuesday February 7th, James sank a 21-foot turnaround with 10.9 seconds left in the third quarter at Crypto.com Arena, giving him 16 points in the period, the necessary 36 for the game and 38,388 for his illustrious career - now more than any other player in NBA history.</p>
+
+    <div id="banner">
+        <div class="inline-block">
+            <img src ="Lebron.jpg" alt="lebron shooting ball">
+        </div>
+
+        <div class="inline-block">
+            <img src ="Lebron2.jpg" alt="lebron holding ball">
+        </div>
+        <div class="inline-block">
+            <img src ="Lebron3.jpg" alt="lebron raising hand">
+        </div>
+        <div class="inline-block">
+            <img src ="Lebron5.jpg" alt="lebron speaking into mic">
+        </div>
+    </div>
+
+
+
+    <p>"I never thought anybody could beat Kareem's record, "Magic Johnson said during a congratulatory clip, speaking for most NBA observers.</p>
+
+    <p>But James, who also played multiple stints in Cleveland bracketing a stretch in Miami, has followed the same path as his fellow Lakers star with consistent, high-level excellence and historic longevity. With double-figure points in all but eight career games, and scoring averages of at least 25 points per game in all 19 seasons since his rookie campaign in 2003-04, James consistently chipped away at the standard Abdul-Jabbar initially set in 1984 and continued to build on until his retirement in 1989.</p>
+
+    <p>"To be in the presence of such a legend and great as Kareem, it means so much to me. It's  very humbling" James said as the game was stopped for a brief ceremony at center court. "To everybody who's ever been a part of this run with me the last 20 years, I just want to say thank you so much."</p>
+    <h3> NBA Statistics</h3>
+
+    <p>The current NBA scoring list order is as follows (Thu Feb 9): </p>
+    <div id="scoring_list">
+        <ul>
+            <li><a>1. Lebron James 38,390</a></li>
+            <li><a>2. Kareem Abdul-Jabbar 38,387</a> </li>
+            <li><a>3. Karl Malone 36,928</a></li>
+            <li><a>4. Kobe Bryant 33,643</a></li>
+            <li><a>5. Michael Jordan 32,292</a> </li>
+        </ul>
+    </div>
+
+    <p>LeBron James played has played on 3 different teams in his career. 
+        He returned to the Cavaliers after leaving in 2010. These are the point totals he 
+        reached for each team.</p>
+    <section class="lb_table_section">
+
+        <table class="lj_points_table">
+            <tr>
+                <th>Team</th>
+                <th>Years</th>
+                <th>Points Toal </th>
+            </tr>
+            <tr>
+                <td>Cleavland Cavaliers</td>
+                <td>2003-2010</td>
+                <td>15,251</td>
+            </tr>
+            <tr>
+                <td>Miami Heat</td>
+                <td>2010-2014</td>
+                <td>7,919</td>
+            </tr>
+            <tr>
+                <td>Cleavland Cavaliers</td>
+                <td>2014-2018</td>
+                <td>7,868</td>
+            </tr>
+            <tr>
+                <td> Los Angeles Lakers</td>
+                <td>2018-Present</td>
+                <td>7,352</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <button onclick="toggleCSS()">Switch Style</button>
+    <div id="outside_links">
+    <p>For More Information: <a href="https://twitter.com/KingJames" target="_blank"> LeBron Twitter</a> 
+        <a href="https://www.lebronjames.com/" target="_blank">LeBron's Website</a></p>
+    </div>
+    <footer>
+        <p>Authors: Christian Kishun, Julio Cordovi   © </p>
+    </footer>
+    </div>
+</body>
+</html>
