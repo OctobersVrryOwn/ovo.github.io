@@ -45,15 +45,26 @@ h1 {
 
 h2 {
     padding: 5px;
-    font-family: Arial;
-    font-size: 24px;
-    color: white;
-    background-color: #333;
+    font-family: Georgia;
+    font-size: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
+h5 {
+    font-family: Georgia;
+    font-size: 35px;
+    color: white
+}
+.carousel {
+    width:80%;
+    height:60%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
 
 #author-name-and-date {
     font-family: Arial;
@@ -63,7 +74,7 @@ h2 {
 
 p, ol{
     font-family: calibri;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
 }
 
@@ -179,3 +190,38 @@ nav a:hover{
 #player_summary{
     color: white;
 }
+
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+
+  td {
+    color: white; 
+    font-size: 18px;
+  }
+  
+  tr:hover {
+    background-color: 	#A9A9A9;
+  }
+  
+  @media screen and (max-width: 600px) {
+    th, td {
+      font-size: 14px;
+    }
+  }
+  
